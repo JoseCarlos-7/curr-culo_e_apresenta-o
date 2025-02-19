@@ -13,7 +13,8 @@ Docker para conteinerizar aplicações.
 * SQL Server e MySQL;
 * Parquet para salvar dados em formato otimizado.
 * Delta como framework de dados que permite operações ACID.  <br>
-Casos interessantes que tive a oportunidade de solucionar. <br>
+
+### Casos interessantes que tive a oportunidade de solucionar. <br>
 ***Relação entre vendas e ações de vendas.***
 Um dos clientes recentes não tinha ao certo o resultado das suas ações de venda, e para isso criei um pipeline que identifica a ocorrência de vendas para CPFs que foram acionados via SMS ou Discadora dentro de um período de 30 dias, considerando casos em que o agente que iniciou a venda é o mesmo que finalizou (ou da mesma hierarquia). Essa solução possibilitou a análise de retorno sobre o investimento em ações de venda.
 ***Desempenho de vendedores após treinamento.***  <br>
